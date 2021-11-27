@@ -1,0 +1,173 @@
+    .grade_8 h1 {
+        font-family: 'Oswald', sans-serif;
+        color: #F09101;
+        font-size: 30px;
+        line-height: 30px;
+        background: url(../imagens/index/bord-7.png) center bottom no-repeat;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 52px;
+        padding-bottom: 28px;
+        letter-spacing: 1px;
+    }
+    
+    .grade_8_organizacao {
+        position: relative;
+        margin: 0 auto;
+        padding: 38px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .plano {
+        border: 5px solid #F09101;
+        border-radius: 16px;
+        margin-top: 30px;
+        margin: 30px;
+        text-align: center;
+        padding: 10px 15px 32px;
+        width: 225px;
+        height: 375px;
+        -moz-box-shadow: 0px 0px 1em #666;
+        -webkit-box-shadow: 1px 1px 2em #f09101;
+    }
+    
+    .plano_titulo {
+        font-family: 'Oswald', sans-serif;
+        text-shadow: 1px 1px #000;
+        font-size: 30px;
+        line-height: 46px;
+        color: #F09101;
+        font-weight: normal;
+        background: transparent;
+        margin: 0;
+        margin-top: 0px;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: top;
+        text-align: center;
+    }
+    
+    .plano_linha {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 13px;
+    }
+    
+    .plano_botao_clique {
+        background: #F09101;
+        font-family: 'Avenir 85 Heavy';
+        color: #000;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: bolder;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        margin-left: 0px;
+        top: 25px;
+        position: relative;
+        line-height: 1.5em;
+        outline: none;
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .plano_botao_clique:hover {
+        color: #000;
+        background: #fff;
+    }
+    
+    .plano ul {
+        list-style: none;
+        text-align: left;
+        padding-left: 0px;
+        margin-top: 56px;
+        color: #fff;
+        font-family: 'Bahnschrift SemiBold';
+    }
+    
+    .plano li+li {
+        background: url(../imagens/index/icon-1.png) 12px 15px no-repeat;
+        border-top: 1px solid #d2d2d2;
+        padding-top: 11px;
+        padding-bottom: 7px;
+    }
+    
+    .plano li {
+        background: url(../imagens/index/icon-1.png) 12px 10px no-repeat;
+        padding-top: 7px;
+        padding-left: 30px;
+        vertical-align: top;
+    }
+    
+    .container_9 img {
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .container_9 button {
+        position: relative;
+        z-index: 1;
+        top: 0%;
+        float: right;
+        right: 21%;
+        width: 419px;
+        height: 89px;
+        padding: 0;
+        margin: -156px 0px 0px 0px;
+        border-radius: 20px;
+        background: #d67223;
+        border: 5px outset #e97c29;
+        font-size: 27px;
+        font-family: "raleway";
+        font-weight: bolder;
+        color: #FFF;
+    }
+    
+    .container_9 button:hover {
+        background: #4b5cbd;
+        border: 5px outset #293095;
+    }
+    
+    @media (max-width: 499px) {}
+    
+    @media (max-width: 1000px) {
+        .grade_8 {
+            width: 100%;
+        }
+        .grade_8_organizacao {
+            padding: 25px;
+        }
+        .plano_titulo {
+            font-size: 21px;
+            line-height: 30px;
+        }
+        .plano_botao_clique {
+            font-size: 15px;
+            padding: 10px 18px;
+            border-radius: 13px;
+        }
+        .plano {
+            margin: 9px;
+        }
+        .plano ul {
+            margin-top: 46px;
+        }
+        .container_9 button {
+            width: 199px;
+            height: 38px;
+            margin: -75px 0px 0px 0px;
+            border-radius: 8px;
+            font-size: 11px;
+        }
+        footer {
+            position: absolute;
+        }
+    }

@@ -1,0 +1,93 @@
+.mapa {
+    width: 100%;
+    height: 100%;
+}
+
+.mapa h2 {
+    font-size: 170%;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-top: 0.5%;
+    padding: 0.5%;
+}
+
+.mapa_style {
+    width: 100%;
+    height: 500px;
+}
+
+.legenda {
+    width: 100%;
+    height: 35%;
+}
+
+.legenda h2 {
+    font-size: 170%;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-top: 0.5%;
+    padding: 0.5%;
+}
+
+.legenda_cidades {
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+}
+
+.legenda_cidades ul {
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.legenda_cidades li {
+    padding-left: 10%;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    list-style: none;
+    font-size: 130%;
+}
+
+.cidade_1 {
+    background: url(../imagens/cobertura/MarcadorGoogleMaps_Vermelho.png) 0px 0px no-repeat;
+}
+
+.cidade_2 {
+    background: url(../imagens/cobertura/MarcadorGoogleMaps_Amarelo.png) 0px 0px no-repeat;
+}
+
+.cidade_3 {
+    background: url(../imagens/cobertura/MarcadorGoogleMaps_Roxo.png) 0px 0px no-repeat;
+}
+
+.cidade_4 {
+    background: url(../imagens/cobertura/MarcadorGoogleMaps_Marrom.png) 0px 0px no-repeat;
+}
+
+.cidade_5 {
+    background: url(../imagens/cobertura/MarcadorGoogleMaps_Azul.png) 0px 0px no-repeat;
+}
+
+.cidade_6 {
+    background: url(../imagens/cobertura/MarcadorGoogleMaps_Preto.png) 0px 0px no-repeat;
+}
+
+.cidade_7 {
+    background: url(../imagens/cobertura/MarcadorGoogleMaps_Verde.png) 0px 0px no-repeat;
+}
+
+.cidade_8 {
+    background: url(../imagens/cobertura/MarcadorGoogleMaps_VerdeClaro.png) 0px 0px no-repeat;
+}
+
+.cidade_9 {
+    background: url(../imagens/cobertura/MarcadorGoogleMaps_Laranja.png) 0px 0px no-repeat;
+}
+
+.cidade_10 {
+    background: url(../imagens/cobertura/MarcadorGoogleMaps_AzulAgua.png) 0px 0px no-repeat;
+}

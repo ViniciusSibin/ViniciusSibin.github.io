@@ -1,0 +1,62 @@
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+}
+
+.container_10 img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.container_10 button {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 20%;
+    width: 419px;
+    height: 89px;
+    padding: 0;
+    margin: 642px 0 0 -34px;
+    border-radius: 20px;
+    background: #d67223;
+    border: 5px outset #e97c29;
+    font-size: 31px;
+    font-family: "raleway";
+    font-weight: bolder;
+    color: #FFF;
+}
+
+.container_10 button:hover {
+    background: #4b5cbd;
+    border: 5px outset #293095;
+}
+
+@media (max-width: 499px) {}
+
+@media (max-width: 1000px) {
+    .container_10 button {
+        position: absolute;
+        z-index: 1;
+        top: 35%;
+        left: 24%;
+        width: 186px;
+        height: 38px;
+        padding: 0;
+        margin: 276px 0 0 -48px;
+        border-radius: 13px;
+        background: #d67223;
+        border: 5px outset #e97c29;
+        font-size: 13px;
+        font-family: "raleway";
+        font-weight: bolder;
+        color: #FFF;
+    }
+    footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+    }
+}
