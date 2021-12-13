@@ -136,38 +136,142 @@
         border: 5px outset #293095;
     }
     
-    @media (max-width: 499px) {}
-    
-    @media (max-width: 1000px) {
+    @media only screen and (max-width: 1340px) {
         .grade_8 {
             width: 100%;
         }
-        .grade_8_organizacao {
-            padding: 25px;
-        }
-        .plano_titulo {
-            font-size: 21px;
-            line-height: 30px;
-        }
-        .plano_botao_clique {
-            font-size: 15px;
-            padding: 10px 18px;
-            border-radius: 13px;
-        }
         .plano {
-            margin: 9px;
+            margin: 28px;
         }
         .plano ul {
-            margin-top: 46px;
+            margin-top: 45px;
+        }
+        .plano_titulo {
+            font-size: 29px;
         }
         .container_9 button {
-            width: 199px;
-            height: 38px;
-            margin: -75px 0px 0px 0px;
-            border-radius: 8px;
+            margin: -104px -62px 0px 0px;
+            width: 389px;
+            height: 75px;
+            font-size: 26px;
+        }
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        .plano {
+            margin: 16px;
+        }
+        .grade_8_organizacao {
+            padding: 40px 0px;
+        }
+        .container_9 button {
+            margin: -90px -62px 0px 0px;
+            width: 334px;
+            height: 61px;
+            font-size: 22px;
+        }
+    }
+    
+    @media only screen and (max-width: 850px) {
+        .plano {
+            margin: 10px;
+        }
+        .plano_titulo {
+            font-size: 24px;
+        }
+        .plano li {
+            font-size: 15px;
+        }
+        .container_9 button {
+            margin: -75px -68px 0px 0px;
+            width: 310px;
+            height: 49px;
+            font-size: 20px;
+        }
+    }
+    
+    @media only screen and (max-width: 720px) {
+        .plano {
+            margin: 4px;
+            height: 334px;
+        }
+        .plano_titulo {
+            font-size: 20px;
+        }
+        .plano_botao_clique {
+            font-size: 14px;
+        }
+        .plano li {
+            font-size: 12px;
+        }
+        .container_9 button {
+            margin: -65px -56px 0px 0px;
+            width: 261px;
+            height: 41px;
+            font-size: 16px;
+            border-radius: 17px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .grade_8 h1 {
+            font-size: 29px;
+            padding-top: 26px;
+        }
+        .plano_titulo {
+            font-size: 16px;
+        }
+        .plano_botao_clique {
+            font-size: 12px;
+            padding: 10px 5px;
+        }
+        .plano li {
+            font-size: 10px;
+            padding-left: 7px;
+            /* background: url(../imagens/index/icon-1.png) 12px 10px no-repeat; */
+        }
+        .container_9 button {
+            margin: -53px -49px 0px 0px;
+            width: 220px;
+            height: 27px;
+            font-size: 13px;
+            border-radius: 17px;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .grade_8 h1 {
+            font-size: 28px;
+            padding-top: 25px;
+        }
+        .plano_titulo {
             font-size: 11px;
         }
-        footer {
-            position: absolute;
+        .plano_botao_clique {
+            font-size: 10px;
+            padding: 10px 1px;
+            top: 20px;
+        }
+        .plano li {
+            font-size: 9px;
+            padding-left: 0px;
+            /* background: url(../imagens/index/icon-1.png) 12px 10px no-repeat; */
+        }
+        .plano_linha {
+            padding-bottom: 3px;
+        }
+        .plano ul {
+            margin-top: 35px;
+        }
+        .plano {
+            margin: 4px;
+            height: 300px;
+        }
+        .container_9 button {
+            margin: -45px -47px 0px 0px;
+            width: 182px;
+            height: 27px;
+            font-size: 11px;
+            border-radius: 10px;
         }
     }
