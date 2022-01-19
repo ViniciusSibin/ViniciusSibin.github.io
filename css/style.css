@@ -8,7 +8,7 @@ html {
 
 body {
     text-align: left;
-    background: #293095;
+    background: #1686d8;
     font-family: Verdana, Tahoma, Arial;
     margin: 0;
     padding: 0;
@@ -34,14 +34,12 @@ footer {
 }
 
 .container_1 {
-    background: #293095;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .bg-1 {
-    background: #293095;
     -webkit-text-size-adjust: none;
     display: block;
 }
@@ -72,23 +70,16 @@ footer {
 .container_3 {
     max-height: 170px;
     width: 100%;
-    background: #293095;
-    ;
-}
-
-.container_4 {
-    background: #293095;
     ;
 }
 
 .container_5 {
-    max-height: 1000px;
+    height: 1180px;
     width: 100%;
-    background: #f09101;
+    background: #1686d8;
 }
 
 .container_6 {
-    min-height: 509px;
     width: 100%;
 }
 
@@ -100,7 +91,7 @@ footer {
 .container_8 {
     min-height: 620px;
     width: 100%;
-    background: #293095;
+    background-color: #f5f1f1;
 }
 
 .container_9 {
@@ -156,9 +147,8 @@ footer {
 }
 
 .grade_6 {
-    height: 100%;
     margin: auto;
-    width: 73%;
+    width: 62%;
 }
 
 .grade_7 {

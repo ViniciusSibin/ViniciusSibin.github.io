@@ -1,5 +1,8 @@
 footer {
-    position: absolute;
     width: 100%;
     bottom: 0px;
+}
+
+section img {
+    max-width: 100%;
 }

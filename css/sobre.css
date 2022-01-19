@@ -1,11 +1,33 @@
-footer {
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
+.container_6 {
+    max-width: 100%;
+    background-repeat: round;
+    background-image: url("../imagens/sobre/marca_d_agua.png");
 }
 
-.container_6 img{
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
+.sobreImagens {
+    margin-top: 45px;
+}
+
+.sobreImagensInformacoes1 {
+    display: flex;
+    border: 5px outset #e97c29;
+    margin-bottom: 45px;
+    width: 79.86%;
+}
+
+.sobreImagensInformacoes1:hover {
+    transform: scale(1.2);
+}
+
+.sobreImagensInformacoes2 {
+    display: flex;
+    width: 79.9%;
+    border: 5px outset #e97c29;
+    margin-left: 250px;
+    margin-bottom: 45px;
+    justify-content: flex-end;
+}
+
+.sobreImagensInformacoes2:hover {
+    transform: scale(1.2);
 }
