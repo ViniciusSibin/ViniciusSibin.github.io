@@ -73,12 +73,6 @@ footer {
     ;
 }
 
-.container_5 {
-    height: 1180px;
-    width: 100%;
-    background: #1686d8;
-}
-
 .container_6 {
     width: 100%;
 }
@@ -142,7 +136,6 @@ footer {
 
 .grade_5 {
     margin: auto;
-    height: 100%;
     width: 65%;
 }
 
@@ -174,6 +167,14 @@ footer {
     text-align: center;
 }
 
+@media only screen and (max-width: 1284px) {
+    .grade_5 {
+        margin: 0px;
+        height: 100%;
+        width: 98%;
+    }
+}
+
 @media only screen and (max-width: 720px) {
     .container_8 {
         min-height: 578px;
@@ -190,5 +191,15 @@ footer {
 @media only screen and (max-width: 600px) {
     .container_8 {
         min-height: 537px;
+    }
+    .grade_6 {
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .grade_6 {
+        width: 95%;
     }
 }

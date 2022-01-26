@@ -1,33 +1,100 @@
-.container_6 {
-    max-width: 100%;
-    background-repeat: round;
-    background-image: url("../imagens/sobre/marca_d_agua.png");
-}
-
-.sobreImagens {
-    margin-top: 45px;
-}
-
-.sobreImagensInformacoes1 {
-    display: flex;
-    border: 5px outset #e97c29;
-    margin-bottom: 45px;
-    width: 79.86%;
-}
-
-.sobreImagensInformacoes1:hover {
-    transform: scale(1.2);
-}
-
-.sobreImagensInformacoes2 {
-    display: flex;
-    width: 79.9%;
-    border: 5px outset #e97c29;
-    margin-left: 250px;
-    margin-bottom: 45px;
-    justify-content: flex-end;
-}
-
-.sobreImagensInformacoes2:hover {
-    transform: scale(1.2);
-}
+            .container_6 {
+                max-width: 100%;
+                background-repeat: round;
+                background-image: url("../imagens/sobre/marca_d_agua.png");
+            }
+            
+            .sobreImagens {
+                margin-top: 45px;
+            }
+            
+            .sobreImagens img {
+                border: 5px outset #e97c29;
+                max-width: 100%;
+            }
+            
+            .sobreImagensInformacoes1 {
+                display: flex;
+                margin-bottom: 45px;
+                width: 80%;
+            }
+            
+            .sobreImagensInformacoes1:hover {
+                transform: scale(1.2);
+            }
+            
+            .sobreImagensInformacoes2 {
+                display: flex;
+                width: 80%;
+                margin-left: 250px;
+                margin-bottom: 45px;
+                justify-content: flex-end;
+            }
+            
+            .sobreImagensInformacoes2:hover {
+                transform: scale(1.2);
+            }
+            
+            @media only screen and (max-width: 1340px) {
+                .sobreImagens img {
+                    max-width: 116%;
+                }
+                .sobreImagensInformacoes1:hover {
+                    transform: none;
+                }
+                .sobreImagensInformacoes2:hover {
+                    transform: none;
+                }
+            }
+            
+            @media only screen and (max-width: 1026px) {
+                .sobreImagens {
+                    margin-top: 0px;
+                }
+                .grade_6 {
+                    width: 80%;
+                }
+                .sobreImagensInformacoes2 {
+                    margin-left: 220px;
+                }
+            }
+            
+            @media only screen and (max-width: 560px) {
+                .sobreImagens {
+                    margin-top: 6px;
+                }
+                .sobreImagensInformacoes2 {
+                    width: 82%;
+                    margin-left: 106px;
+                }
+            }
+            
+            @media only screen and (max-width: 420px) {
+                .sobreImagens {
+                    margin-top: 10px;
+                }
+                .sobreImagensInformacoes2 {
+                    margin-left: 85px;
+                }
+                .sobreImagens img {
+                    border: 3px outset #e97c29;
+                }
+            }
+            
+            @media only screen and (max-width: 377px) {
+                .sobreImagens {
+                    margin-top: 0px;
+                }
+                .sobreImagens img {
+                    max-width: 116%;
+                }
+                .sobreImagensInformacoes2 {
+                    margin-left: 22%;
+                }
+                .sobreImagensInformacoes1:hover {
+                    transform: none;
+                }
+                .sobreImagensInformacoes2:hover {
+                    transform: none;
+                }
+            }

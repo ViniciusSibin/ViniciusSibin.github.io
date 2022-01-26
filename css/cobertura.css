@@ -1,98 +1,185 @@
-               .bg_legenda {
-                   width: 100%;
-                   height: 215px;
-                   background: #f09101;
-               }
-               
-               .legenda h1 {
-                   font-size: 170%;
-                   color: #000;
-                   text-shadow: 1px 1px #000;
-                   font-weight: bolder;
-                   text-transform: uppercase;
-                   margin-top: 0.5%;
-                   padding: 0.5%;
-                   text-align: center;
-               }
-               
-               .legenda_cidades {
-                   display: flex;
-                   justify-content: space-between;
-               }
-               
-               .legenda_cidades ul {
-                   padding-left: 0px;
-                   margin-top: 0px;
-               }
-               
-               .legenda_cidades li {
-                   margin-bottom: 3%;
-                   list-style: none;
-                   font-size: 129%;
-                   font-weight: bold;
-               }
-               
-               .bg_coberturaLojas {
-                   max-width: 100%;
-                   background-repeat: round;
-                   background-image: url("../imagens/Cobertura/bg_cobertura.png");
-               }
-               
-               .coberturaLojas {
-                   margin-top: 30px;
-                   margin-bottom: 15px;
-               }
-               
-               .coberturaLojas:hover {
-                   transform: scale(1.2);
-               }
-               
-               .coberturaLojasInformacoes1 {
-                   display: flex;
-               }
-               
-               .coberturaLojasInformacoes1 img {
-                   max-height: 150px;
-               }
-               
-               .coberturaLojasInformacoes1Descricao {
-                   width: 674px;
-                   height: 150px;
-                   color: #fff;
-                   padding-left: 15px;
-                   border-right: 5px outset #e97c29;
-                   border-left: 5px outset #e97c29;
-               }
-               
-               .coberturaLojasInformacoes1Maps img {
-                   max-width: 100px;
-                   margin-top: 20px;
-                   margin-left: 2px;
-               }
-               
-               .coberturaLojasInformacoes1 {
-                   width: 74%;
-                   height: 150px;
-                   border: 5px outset #e97c29;
-                   margin-bottom: 15px;
-               }
-               
-               .coberturaLojasInformacoes2 {
-                   display: flex;
-                   width: 80%;
-                   height: 150px;
-                   border: 5px outset #e97c29;
-                   margin-left: 240px;
-                   margin-bottom: 15px;
-               }
-               
-               .coberturaLojasInformacoes2 img {
-                   max-height: 150px;
-                   float: right;
-               }
-               
-               .coberturaLojasInformacoes2Maps img {
-                   max-width: 100px;
-                   margin-top: 20px;
-                   margin-right: 2px;
-               }
+.bg_legenda {
+    width: 100%;
+    background: #f09101;
+}
+
+.legenda h1 {
+    font-size: 170%;
+    color: #000;
+    text-shadow: 1px 1px #000;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 0.5%;
+    padding: 0.5%;
+    text-align: center;
+}
+
+.legenda_cidades {
+    display: flex;
+    justify-content: space-between;
+}
+
+.legenda_cidades ul {
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.legenda_cidades li {
+    margin-bottom: 3%;
+    list-style: none;
+    font-size: 129%;
+    font-weight: bold;
+}
+
+.bg_coberturaLojas {
+    max-width: 100%;
+    background-repeat: round;
+    background-image: url("../imagens/Cobertura/bg_cobertura.png");
+}
+
+.coberturaLojas {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.coberturaLojas:hover {
+    transform: scale(1.2);
+}
+
+.coberturaLojasInformacoes1 {
+    display: flex;
+}
+
+.coberturaLojasInformacoes1Descricao {
+    width: 100%;
+    color: #fff;
+    padding-left: 15px;
+    border-right: 5px outset #e97c29;
+    border-left: 5px outset #e97c29;
+}
+
+.coberturaLojasInformacoes1Maps img {
+    max-width: 100px;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+
+.coberturaLojasInformacoes1 {
+    width: 74%;
+    height: 150px;
+    border: 5px outset #e97c29;
+    margin-bottom: 15px;
+}
+
+.coberturaLojasInformacoes2 {
+    display: flex;
+    width: 80%;
+    height: 150px;
+    border: 5px outset #e97c29;
+    margin-left: 240px;
+    margin-bottom: 15px;
+}
+
+.coberturaLojasInformacoes2Maps img {
+    max-width: 100px;
+    margin-top: 20px;
+    margin-right: 2px;
+}
+
+@media only screen and (max-width: 1284px) {
+    .coberturaLojasInformacoes2 {
+        margin-left: 135px;
+    }
+    .coberturaLojas:hover {
+        transform: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .legenda_cidades li {
+        font-size: 110%;
+    }
+    .coberturaLojas h1 {
+        font-size: 26px;
+    }
+    .coberturaLojas p {
+        font-size: 12px;
+    }
+    .coberturaLojasInformacoes1 {
+        width: 90%;
+        border: 4px outset #e97c29;
+        height: 120px;
+    }
+    .coberturaLojasInformacoes1Maps img {
+        max-width: 90%;
+        margin-top: 32%;
+        margin-left: 6%;
+    }
+    .coberturaLojasInformacoes2 {
+        width: 90%;
+        border: 4px outset #e97c29;
+        height: 120px;
+        margin-left: 0px;
+    }
+    .coberturaLojasInformacoes2Maps img {
+        max-width: 90%;
+        margin-top: 32%;
+        margin-left: 6%;
+    }
+}
+
+@media only screen and (max-width: 542px) {
+    .legenda h1 {
+        font-size: 160%;
+    }
+    .legenda_cidades li {
+        font-size: 100%;
+    }
+    .coberturaLojasInformacoes1 {
+        width: 100%;
+    }
+    .coberturaLojasInformacoes2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 416px) {
+    .legenda h1 {
+        font-size: 150%;
+    }
+    .legenda_cidades li {
+        font-size: 85%;
+    }
+    .coberturaLojas h1 {
+        font-size: 20px;
+    }
+    .coberturaLojas p {
+        font-size: 8px;
+    }
+    .coberturaLojasInformacoes1 {
+        width: 100%;
+        border: 3px outset #e97c29;
+        height: 84px;
+    }
+    .coberturaLojasInformacoes1Maps img {
+        max-width: 80%;
+        margin-top: 26%;
+        margin-left: 10%;
+    }
+    .coberturaLojasInformacoes2 {
+        width: 100%;
+        border: 3px outset #e97c29;
+        height: 84px;
+    }
+    .coberturaLojasInformacoes2Maps img {
+        max-width: 80%;
+        margin-top: 26%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 494px) {
+    .legenda_cidades li {
+        font-size: 76%;
+    }
+}
